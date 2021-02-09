@@ -11,8 +11,19 @@ greaterThan(5, 15) => 15
 
 */
 
+//Inputs: 1 number
+//Outputs: 1 number
 
+ function greaterThan(num1, num2){
+  //comparing two numbers
+  //determining which one is greater
+ if(num1 > num2){
+  //returning num 2 is greater
+  return num2;
+ }
+}
 
+//console.log(greaterThan(14, 130))
 
 
 
@@ -29,9 +40,19 @@ lessThan(20, 4) => 20
 lessThan(5, 15) => 15
 
 */
+//Inputs: 1 number
+//Outputs: 1 number
 
+ function lessThan(num1, num2){
+  //comparing two numbers
+  //determining which one is less
+ if(num1 > num2){
+  //returning num 2 is less
+  return num2;
+ }
+}
 
-
+//console.log(lessThan(13, 55))
 
 
 
@@ -50,6 +71,8 @@ arrayPrint(['hello', true]) => 'hello'  true
 
 */
 
+//Inputs:
+//Outputs:
 
 
 
@@ -67,8 +90,17 @@ counter(10) => 0 1 2 3 4 5 6 7 8 9 10
 
 */
 
+//Inputs: single numbers
+//Outputs: a list of numbers
 
+function counter(num){
+  //need a loop to count the nums up to the input num1
+  for(var i = 0; i <=; i++){
+    console.log(i)
+  }
+}
 
+counter(10)
 
 
 
