@@ -71,12 +71,22 @@ arrayPrint(['hello', true]) => 'hello'  true
 
 */
 
-//Inputs:
-//Outputs:
+//Inputs: single array
+//Outputs: all values in the array
 
+function arrayPrint(array){
+  //for loop iterating over array
+  //the loop is starting at 0 index
+  //and ending at the last index incrementing by 1
+  for(var i = 0; i < array.length; i++){
+    //the console.log will print the value at each element
+    console.log(array[i])
+  }
+}
 
+var arr = [true, false, 'nope', 'hello', 'coding']
 
-
+arrayPrinter(arr)
 
 
 
@@ -118,7 +128,20 @@ isEven(55) => odd
 
 */
 
+//Input: single number
+//Outputs: string 
 
+//function accepting the parameter of one number
+fuction isEven(num){
+  if(num % 2 === 0){
+    console.log('Even')
+  }
+  
+  else{
+    //odd will print to the console
+    console.log('Odd')
+  }
+}
 
 
 
